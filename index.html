@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+		var x = prompt("Введите x");
+		var k=1;
+		var res=(3.14/2);
+		var iter = prompt("Введите количество итераций");
+		for (i=0;i<iter;i++){
+		if(i%2==0){
+			res-=1/(k*Math.pow(x,k))
+		}
+		else{
+			res+=1/(k*Math.pow(x,k))
+		}
+		k+=2;
+    }
+	alert("Ответ: " + res);
+	</script>
+</head>
+<body>
+</body>
+</html>
